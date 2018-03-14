@@ -1,0 +1,42 @@
+@import 'normalize.css';
+
+@import 'variable.css';
+@import 'mixin.css';
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    size: 100%;
+    font-size: 20px;
+}
+
+body {
+    size: 100%;
+    background: #fff;
+}
+
+#root {
+    height: 100%;
+}
+
+.training-list-item {
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+        box-shadow: 0 0 4px #ccc;
+        transform: scale(1.05);
+    }
+}
+
+.word-answer {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+

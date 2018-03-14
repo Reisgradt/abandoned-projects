@@ -1,0 +1,26 @@
+{
+    "db": {
+        "url": "mongodb://localhost:27017/LEW_Trainer",
+        "options": {
+            "useMongoClient": true
+        }
+    },
+    "server": {
+        "port": 3000
+    },
+    "translater": {
+        "url": "https://translate.yandex.net/api/v1.5/tr.json/translate",
+        "key": "Your key"
+    },
+    "session": {
+        "secret": "Your secret",
+        "key": "sid",
+        "cookie": {
+            "path": "/",
+            "httpOnly": true,
+            "maxAge": null,
+            "secure": false
+        }
+    }
+}
+
