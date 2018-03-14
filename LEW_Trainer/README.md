@@ -6,7 +6,7 @@
 
 ### То, что нужно заменить
 
-В файле ./server/config/config.json нужно вставить свой ключ от API яндека в translater.key. А также придумать свою ключ для сессий в session.secret.
+В файле ./server/config/config.json нужно вставить свой ключ от API яндека в translater.key. А также придумать свой ключ для сессий в session.secret.
 
 ```json
 {
